@@ -53,7 +53,7 @@ curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, '{
     "truecaller": false,
     "code": "'.$otp.'",
-    "country_code": "+62",
+    "country_code": "+1",
     "device_id": "'.generateRandomString(16).'",
     "device_type": "android",
     "email": "'.generateRandomString(10).'@gmail.com",
