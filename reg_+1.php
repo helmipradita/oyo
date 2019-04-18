@@ -1,4 +1,4 @@
-<?php
+<?php //PRADOVY75
 error_reporting(0);
 function generateRandomString($length = 10) {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
